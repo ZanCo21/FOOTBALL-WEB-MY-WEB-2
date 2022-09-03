@@ -1,0 +1,445 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #020f22;
+    scroll-behavior: smooth;
+}
+
+/* navbar */
+nav{
+    height: 40px;
+    background-color: #020f22;
+    width: 100%;
+    font-weight: lighter;
+}
+
+nav li a{
+        text-decoration: none;
+        color: rgb(194, 194, 194);
+}
+
+/* navright */
+
+.navright{
+    position: absolute;
+    top: 0;
+    height: 19px;
+    font-size: 13px;
+    margin-top: 10px;
+    right: 25px;
+
+}
+
+.navright li{
+    display: inline-block;
+    margin-right: 20px;
+    top: 0;
+}
+
+
+/*logo,titel (navleft)*/
+
+.logomu{
+    left: 45px;
+    width: 35px;
+    top: 0;
+    margin-top: 4px;
+    position: absolute;
+}
+
+.titlemu{
+    display: inline-block;
+    left: 85px;
+    margin-top: 10.5px;
+    position: relative;
+    color: white;
+}
+
+/* HERO CONTENT */
+
+.herocontent h3{
+    position: absolute;
+    color: white;
+    background-color: red ;
+    padding: 4px;
+    top: 0;
+    margin-top: 10vw;
+    margin-left: 15vw;
+}
+
+
+.herocontent h1{
+    position: absolute;
+    top: 0;
+    margin-top: 13vw;
+    margin-left: 15vw;
+    color: white;
+}
+
+.heroimg{
+    width: 100%;
+}
+
+.herocontent p{
+    position: absolute;
+    text-decoration: none;
+    top: 0;
+    margin-top: 19.5vw;
+    margin-left: 15.2vw;
+    color: white; 
+}
+
+.herocontent p a{
+    text-decoration: none;
+    color: red;
+
+}
+
+.calendar img{ 
+    width: 15px;
+    margin-right: 5px;
+}
+
+/* latest news1 */
+
+.news1{
+    position: absolute;
+    display: flex;
+    right: 30vw;
+    top: 73%;
+    width: 25vw;
+    background-color: crimson;
+}
+
+.news1 p{
+    margin-left: 15px;
+    color: rgb(194, 194, 194);
+
+}
+
+.news1 span{
+    font-size: 1.5vw;
+    color: white;
+}
+
+.news1 img{
+    width: 16vw;
+}
+
+.news1 p a{
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+/* latest news2 */
+
+.news2{
+    position: absolute;
+    display: flex;
+    right: 35px;
+    top: 73%;
+    width: 25vw;
+    background-color: crimson;
+}
+
+.news2 p{
+    margin-left: 15px;
+    color: rgb(194, 194, 194);
+
+}
+
+.news2 span{
+    font-size: 1.5vw;
+    color: white;
+}
+
+.news2 img{
+    width: 16vw;
+}
+
+.news2 p a{
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+/* MATCH SCHEDULE */
+
+.subschedule h1{
+        position: absolute;
+        top: 0;
+        margin-top: 46.8vw;
+        margin-left: 8vw;
+        color: white;
+}
+
+.subschedule p a{
+    position: absolute;
+    text-decoration: none;
+    color: red;
+    top: 0%;
+    margin-top: 50.8vw;
+    margin-left: 24.5vw;
+}
+
+.subschedule p img{
+    position: absolute;
+    top: 0%;
+    margin-top: 50.8vw;
+    margin-left: 23vw;
+}
+
+/* JADWAL MATCH */
+/* vs-LOGO*/
+.m-match{
+    position: absolute;
+    top: 0;
+    margin-left: 10vw;
+    margin-top: 54vw;
+}
+
+.m-match p{
+    color: rgb(194, 194, 194);
+    margin-left: 3.5vw;
+    font-size: 13px;
+    margin-bottom: 2vw;
+}
+
+.logo h2{
+    margin-top: 2vw;
+}
+
+.logo{
+    position: absolute;
+    display: flex;
+    color: white;
+}
+
+.logo img{
+    width: 5vw;
+    height: 5vw;
+    padding-right: 2vw;
+}
+
+/* <!-- VS-nm-sub -->*/
+.p1{
+    position: absolute;
+    margin-left: 9vw;
+    color: white;
+    top: 0;
+    margin-top: 63.5vw;
+}
+
+.p2{
+    position: absolute;
+    margin-left: 20vw;
+    color: white;
+    top: 0;
+    margin-top: 63.5vw;
+}
+
+.vs-sub{
+    position: absolute;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 14vw;
+    color: white;
+    top: 0;
+    color: rgb(194, 194, 194);
+    margin-top: 67vw;
+}
+
+/* JADWAL MATCH 2 */
+.bg{
+    position: absolute;
+    background-color: #393E46;
+    height: 30vw;
+    width: 21vw;
+    right: 0;
+    margin-right: 38vw;
+    margin-top: 13.5vw;
+
+}
+
+.m-match2{
+    position: absolute;
+    top: 0;
+    margin-left: 42vw;
+    margin-top: 54vw;
+}
+
+.m-match2 p{
+    color: rgb(194, 194, 194);
+    margin-left: 3.5vw;
+    font-size: 13px;
+    margin-bottom: 2vw;
+}
+
+.logo2 h2{
+    margin-top: 2vw;
+}
+
+.logo2{
+    position: absolute;
+    display: flex;
+    color: white;
+}
+
+.logo2 img{
+    width: 5vw;
+    height: 5vw;
+    padding-right: 2vw;
+}
+
+/* VS-nm-sub2 */
+.p1-2{
+    position: absolute;
+    margin-left: 41vw;
+    color: white;
+    top: 0;
+    margin-top: 63.5vw;
+}
+
+.p2-2{
+    position: absolute;
+    margin-left: 52vw;
+    color: white;
+    top: 0;
+    margin-top: 63.5vw;
+}
+
+.vs-sub2{
+    position: absolute;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 46vw;
+    color: white;
+    top: 0;
+    color: rgb(194, 194, 194);
+    margin-top: 67vw;
+}
+
+/* JADWAL MATCH3 */
+.m-match3{
+    position: absolute;
+    top: 0;
+    margin-left: 72vw;
+    margin-top: 54vw;
+}
+
+.m-match3 p{
+    color: rgb(194, 194, 194);
+    margin-left: 4vw;
+    font-size: 13px;
+    margin-bottom: 2vw;
+}
+
+.logo3 h2{
+    margin-top: 2vw;
+}
+
+.logo3{
+    position: absolute;
+    display: flex;
+    color: white;
+}
+
+.logo3 img{
+    width: 5vw;
+    height: 5vw;
+    padding-right: 2vw;
+}
+
+/* VS-nm-sub3 */
+.p1-3{
+    position: absolute;
+    margin-left: 71vw;
+    color: white;
+    top: 0;
+    margin-top: 63.5vw;
+}
+
+.p2-3{
+    position: absolute;
+    margin-left: 82vw;
+    color: white;
+    top: 0;
+    margin-top: 63.5vw;
+}
+
+.vs-sub3{
+    position: absolute;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 76vw;
+    color: white;
+    top: 0;
+    color: rgb(194, 194, 194);
+    margin-top: 67vw;
+}
+
+
+
+/* stats */
+.bgseason{
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    margin-top: 37vw;
+    background-color: white;
+    
+
+}
+
+.stats img{
+    position: absolute;
+    margin-left: 18vw;
+    margin-top: 31.3vw;
+    width: 25vw;
+
+}
+
+.substats{
+    position: absolute;
+    margin-top: 43vw;
+    margin-left: 45vw;
+}
+
+.stats h1{
+    position: absolute;
+    left: 8vw;
+    width: 55px;
+    margin-top: 38vw;
+    color: black;
+}
+
+
+
+.bar1{
+    position: absolute;
+    background-color: rgb(136, 0, 0);
+    margin-top: 44.6vw;
+    margin-left: 56vw;
+    width: 35vw;
+    height: 1vw;
+}
+
+.bar2{
+    position: absolute;
+    background-color: rgb(136, 0, 0);
+    margin-left: 56vw;
+    margin-top: 47.8vw;
+    width: 30vw;
+    height: 1vw;
+}
+
+.bar3{
+    position: absolute;
+    background-color: rgb(136, 0, 0);
+    margin-left: 56vw;
+    margin-top: 50.8vw;
+    width: 35vw;
+    height: 1vw;
+}
